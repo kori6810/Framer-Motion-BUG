@@ -1,0 +1,1145 @@
+{
+  "tabNames": {
+    "chargingService": "충전 서비스",
+    "inquiry": "문의신청",
+    "as": " A/S 접수"
+  },
+  "chargingService": {
+    "headTitle": "매니지온은 | 충전 서비스",
+    "title": "충전 서비스",
+    "tabNames": {
+      "octoflex": "OCTOFLEX(공용/비공용)",
+      "mecon": "MECON",
+      "onflex": "ONFLEX",
+      "fastCharger": "급속충전기",
+      "evolt": "EVOLT",
+      "powerflex": "POWERFLEX"
+    },
+    "octoflex": {
+      "octoKiosk": {
+        "title": "OCTOFLEX(공용)",
+        "kioskTitle": "OCTOFLEX 키오스크",
+        "description": "메인 키오스크 하나로 20대까지 충전 제어가 가능한\n멀티플렉스 EV 충전기",
+        "components": {
+          "componentsTitle": "구성품",
+          "kiosk": {
+            "title": "키오스크(21인치)"
+          },
+          "charger": {
+            "title": "충전기(7kW)"
+          }
+        },
+        "productDescription": {
+          "descriptionTitle": "제품설명",
+          "octoflexCharger": "OCTOFLEX 공용충전기",
+          "features": {
+            "1": "- 뛰어난 확장성으로 구축 비용 Down, 충전 구역은 Up",
+            "2": "- 키오스크에서 모든 기능 제어 (간편한 조작과 직관적인 UI제공)",
+            "3": "- 국내 유일 매니지온 독점 개발 및 제조 (환경부 보조금 지원 제품)",
+            "4": "- 전기차 충전 수에 따른 스마트 전력 분배",
+            "5": "- 대형 빌딩, 쇼핑몰, 아파트 등 대형 규모의 주차장 추천"
+          }
+        }
+      },
+      "octoLoadBalancing": {
+        "title": "OCTOFLEX(공용)",
+        "subtitle": "로드밸런싱(Load balancing)\n스마트 전력분배 시스템",
+        "description": "충전수요를 분석하여 가용 전력을 효율적으로 관리 가능",
+        "productDescription": {
+          "descriptionTitle": "제품설명",
+          "features": {
+            "feature1": "옥토플렉스 서비스는 스마트 전력분배 시나리오를 통해 충전 순서에 따라 공급전력 35kW로 10대 운영가능",
+            "feature2": "일반 완속 충전기 대비 총 공급 전력의 50%로 동일 수량 충전기 / 한전 기본요금 절감 효과/충전 구역 최대 확보",
+            "feature3": "상시 여유 전력이 부족한 공동주택 및 상업 시설에 적합 (일반 충전기 동일 비용으로 충전시설 의무 비율 운영 가능)"
+          }
+        }
+      },
+      "octoflexVideo": {
+        "title": "복잡하고 불편했던 전기차 충전으로부터 자유로워지세요.",
+        "subtitle": "스마트폰을 태그하고, 플러그만 연결하면 끝!"
+      },
+      "octoShare": {
+        "title": "OCTOFLEX 공용충전기",
+        "type": "공용형",
+        "colors": {
+          "label": "색상",
+          "detail": "레드, 옐로우, 스카이블루, 블랙"
+        },
+        "ledDisplay": {
+          "label": "LED 표시 사항",
+          "details": { "1": "상태 및 오류 표시", "2": "전력량 Pulse표시 Blue" }
+        },
+        "lcdDisplay": {
+          "label": "액정 표시 장치",
+          "details": {
+            "1": "충전상태 표시",
+            "2": "누적 유효 전력량 / 전압, 전류 순차 표시",
+            "3": "오류 안내 표시"
+          }
+        },
+        "communication": {
+          "label": "통신규격",
+          "details": "(무선)블루투스5.0 / (유선) RS-485"
+        },
+        "ipRating": {
+          "label": "방수등급",
+          "details": "IP44"
+        },
+        "recommendedStorageTemperature": {
+          "label": "권장 보관 온도",
+          "details": "-10 ~ 40도"
+        },
+        "voltageAndFrequency": {
+          "label": "전압 및 주파수",
+          "details": "AC220V / 60Hz / 단상 / 2선식"
+        },
+        "ratedCurrent": {
+          "label": "정격 전류",
+          "details": "정격32A, 스마트 충전(6A~32A)"
+        },
+        "overVoltageAndCurrent": {
+          "label": "과전압 / 과전류",
+          "details": "AC250V~/35A~30s 이상 지속 시"
+        },
+        "safetyFeatures": {
+          "label": "안전기능",
+          "details": "온도센서 기본 내장 및 100A 릴레이 적용"
+        },
+        "rcdOperationConditions": {
+          "label": "RCD 동작 조건",
+          "details": "AC30mA, DC 6mA 이상 검출 시 차단"
+        },
+        "productSize": {
+          "label": "제품(충전기) 크기",
+          "details": "90(W) x 52(D) x 233(H) mm"
+        },
+        "connector": {
+          "type": {
+            "label": "커넥터",
+            "details": "커넥터 내장형(C타입)"
+          },
+          "standards": {
+            "label": "커넥터 표준",
+            "details": "IEC 62196-2, SAE J1772"
+          },
+          "pinConfiguration": {
+            "label": "핀 구성",
+            "details": "AC 5pin, 케이블 길이 3m, 5m"
+          },
+          "metalHook": {
+            "label": "금속 후크 도입"
+          }
+        },
+        "kcCertificationNumber": {
+          "label": "KC 안전인증 번호",
+          "details": "XD070062-21002B"
+        },
+        "measurementLawCertification": {
+          "label": "계량에 관한 법률 인증",
+          "details": "제KTC-U-21-015호"
+        }
+      },
+      "octoHome": {
+        "title": "OCTOFLEX (비공용)",
+        "kioskTitle": "OCTOFLEX 홈충전기",
+        "description": "메인 키오스크 하나로 20대까지 충전 제어가 가능한 멀티플렉스 EV 충전기",
+        "components": {
+          "componentsTitle": "구성품",
+          "kiosk": {
+            "title": "키오스크 (21인치)"
+          },
+          "charger": {
+            "title": "충전기 (7kW)"
+          }
+        },
+        "productDescription": {
+          "descriptionTitle": "제품설명",
+          "octoflexCharger": "옥토플렉스 공용충전기",
+          "features": {
+            "1": "- 뛰어난 확장성으로 구축 비용 Down, 충전 구역은 Up",
+            "2": "- 키오스크에서 모든 기능 제어 (간편한 조작과 직관적인 UI 제공)",
+            "3": "- 국내 유일 매니지온 독점 개발 및 제조 (환경부 보조금 지원 제품)",
+            "4": "- 전기차 충전 수에 따른 스마트 전력 분배",
+            "5": "- 대형 빌딩, 쇼핑몰, 아파트 등 대형 규모의 주차장 추천"
+          }
+        }
+      },
+      "octoHome2": {
+        "titleText": "OCTOFLEX",
+        "mainTitleText": "OCTOFLEX 비공용 홈 충전기",
+        "typeText": "공용형",
+        "color": {
+          "label": "색상",
+          "detail": "레드, 옐로우, 스카이블루, 블랙"
+        },
+        "ledDisplay": {
+          "label": "LED 표시 사항",
+          "detail1": "상태 및 오류 표시",
+          "detail2": "전력량 Pulse표시 Blue"
+        },
+        "lcdDisplay": {
+          "label": "액정 표시 장치",
+          "detail1": "충전상태 표시",
+          "detail2": "누적 유효 전력량 / 전압, 전류 순차 표시",
+          "detail3": "오류 안내 표시"
+        },
+        "communication": {
+          "label": "통신규격",
+          "detail": "(무선)블루투스5.0 / (유선) RS-485"
+        },
+        "ipRating": {
+          "label": "방수등급",
+          "detail": "IP44"
+        },
+        "recommendedStorageTemperature": {
+          "label": "권장 보관 온도",
+          "detail": "-10 ~ 40도"
+        },
+        "voltageAndFrequency": {
+          "label": "전압 및 주파수",
+          "detail": "AC220V / 60Hz / 단상 / 2선식"
+        },
+        "ratedCurrent": {
+          "label": "정격 전류",
+          "detail": "정격32A, 스마트 충전(6A~32A)"
+        },
+        "overVoltageAndCurrent": {
+          "label": "과전압 / 과전류",
+          "detail": "AC250V~/35A~30s 이상 지속 시"
+        },
+        "safetyFeatures": {
+          "label": "안전기능",
+          "detail": "온도센서 기본 내장 및 100A 릴레이 적용"
+        },
+        "rcdOperationConditions": {
+          "label": "RCD 동작 조건",
+          "detail": "AC30mA, DC 6mA 이상 검출 시 차단"
+        },
+        "productSize": {
+          "label": "제품(충전기) 크기",
+          "detail": "90(W) x 52(D) x 233(H) mm"
+        },
+        "connector": {
+          "type": {
+            "label": "커넥터",
+            "detail": "커넥터 내장형(C타입)"
+          },
+          "standards": {
+            "label": "커넥터 표준",
+            "detail": "IEC 62196-2, SAE J1772"
+          },
+          "pinConfiguration": {
+            "label": "핀 구성",
+            "detail": "AC 5pin, 케이블 길이 3m, 5m"
+          },
+          "metalHook": {
+            "label": "금속 후크 도입"
+          }
+        },
+        "kcCertificationNumber": {
+          "label": "KC 안전인증 번호",
+          "detail": "XD070062-21002B"
+        },
+        "measurementLawCertification": {
+          "label": "계량에 관한 법률 인증",
+          "detail": "제KTC-U-21-015호"
+        }
+      }
+    },
+    "mecon": {
+      "mecon1": {
+        "title": "MECON",
+        "kioskTitle": "MECON 도전방지형",
+        "description": "도전 걱정 NO! 주차 분쟁 NO! 공동주택에 최적화된 건물 전기 지킴이 도전 방지 전기차 전용 콘센트",
+        "components": {
+          "componentsTitle": "구성품",
+          "kiosk": {
+            "title": "충전 콘센트"
+          }
+        },
+        "productDescription": {
+          "descriptionTitle": "제품설명",
+          "meconCharger": "전기차 충전 전용 콘센트 미콘(MECON)",
+          "features": {
+            "1": "220V / 3kW / 전기태그 내장",
+            "2": "과금형 이동형 충전기 사용 필수",
+            "3": "허용되지 않은 기기의 전원 원천 차단",
+            "4": "전용 App 서비스 제공 / 블루투스 간편 제어",
+            "5": "관리자가 콘센트 전원을 제어하여 공용 기기 사용 가능",
+            "6": "최소 비용으로 구축 가능한 경제적인 충전 보조설비"
+          }
+        }
+      },
+      "mecon2": {
+        "subTitle": "MECON",
+        "title": "MECON 도전방지형(MECON Ⅰ)",
+        "type": "비공용형",
+        "productDetails": {
+          "productSize": {
+            "label": "제품크기",
+            "value": "127(W) x 250(H) x 69(D) mm"
+          },
+          "ratedCurrent": {
+            "label": "정격 전류",
+            "value": "16A"
+          },
+          "recommendedOperatingRange": {
+            "label": "동작 범위[권장]",
+            "value": "10~50도"
+          },
+          "recommendedStorageTemperature": {
+            "label": "보관 온도 범위[권장]",
+            "value": "-10 ~ 60도"
+          },
+          "humidityRange": {
+            "label": "보관 습도",
+            "value": "0~80%"
+          },
+          "communication": {
+            "label": "무선통신 방식",
+            "value": "BLE5.0 (Bluetooth)"
+          },
+          "recommendedFrequency": {
+            "label": "최고 동작 주파수",
+            "value": "2.4GHz"
+          },
+          "voltageAndFrequency": {
+            "label": "사용 전원",
+            "value": "95~250V / AC / 60Hz"
+          },
+          "ipRating": {
+            "label": "방수 등급",
+            "value": "IP44(옥외 설치 시 외함 시공)"
+          },
+          "powerConsumption": {
+            "label": "동작 소비전력",
+            "value": "1W이하"
+          },
+          "kcCertificationNumber": {
+            "label": "KC 안전인증번호",
+            "value": "HD02032-20001A"
+          },
+          "otherFeatures": {
+            "label": "기타",
+            "value": "일반220V 콘센트 규격과 동일하여 설치 및 교체 용이"
+          }
+        }
+      },
+      "mecon3": {
+        "subTitle": "MECON",
+        "title": "MECON 과금형",
+        "description": "공동주택 등 다수의 사용자가 사용하는 장소(공용전기 분리 과금이 필요한 건물) 주차를 하면서 동시에 간편하게 충전을 하고싶은 경우",
+        "productDescription": {
+          "title": "제품설명",
+          "meconCharger": "계량기가 내장된 과금형 콘센트",
+          "features": {
+            "1": "220V / 3kW / 전력량계 1.0급",
+            "2": "220V용 휴대폰 충전기 모두 호환",
+            "3": "다양한 통신방식 지원",
+            "4": "사용자 인증 후 결제(회원카드, 전용 앱)",
+            "5": "안전 기능 강화로 과전류, 고온 감지 및 차단",
+            "6": "환경부 보조금 지원 제품",
+            "7": "환경부 카드 지원",
+            "8": "생산물배상책임보험 5억원 가입"
+          }
+        }
+      },
+      "mecon4": {
+        "subTitle": "MECON",
+        "title": "MECON 과금형(MECON Ⅱ)",
+        "type": "비공용형",
+        "productDetails": {
+          "productSize": {
+            "label": "제품크기",
+            "value": "127(W) x 250(H) x 69(D) mm"
+          },
+          "ratedCurrent": {
+            "label": "정격 전류",
+            "value": "16A"
+          },
+          "recommendedOperatingRange": {
+            "label": "동작 범위[권장]",
+            "value": "10~50도"
+          },
+          "recommendedStorageTemperature": {
+            "label": "보관 온도 범위[권장]",
+            "value": "-10 ~ 60도"
+          },
+          "humidityRange": {
+            "label": "보관 습도",
+            "value": "0~80%"
+          },
+          "communication": {
+            "label": "무선통신 방식",
+            "value": "BLE5.0 (Bluetooth)"
+          },
+          "recommendedFrequency": {
+            "label": "최고 동작 주파수",
+            "value": "2.4GHz"
+          },
+          "voltageAndFrequency": {
+            "label": "사용 전원",
+            "value": "95~250V / AC / 60Hz"
+          },
+          "ipRating": {
+            "label": "방수 등급",
+            "value": "IP44(옥외 설치 시 외함 시공)"
+          },
+          "powerConsumption": {
+            "label": "동작 소비전력",
+            "value": "1W이하"
+          },
+          "kcCertificationNumber": {
+            "label": "KC 안전인증번호",
+            "value": "HD02032-20001A"
+          },
+          "otherFeatures": {
+            "label": "기타",
+            "value": "일반220V 콘센트 규격과 동일하여 설치 및 교체 용이"
+          }
+        }
+      },
+      "mecon6": {
+        "subTitle": "MECON",
+        "title": "MECON 과금형(MECON Ⅲ)",
+        "type": "과금형 충전 스테이션",
+        "productDetails": {
+          "modelName": {
+            "label": "모델명",
+            "value": "MECON Ⅲ(과금형 콘센트)"
+          },
+          "typeClassification": {
+            "label": "형식구분",
+            "value": "교류 전자식 계기"
+          },
+          "meterType": {
+            "label": "계기구분",
+            "value": "단독계기"
+          },
+          "accuracyClass": {
+            "label": "유효등급",
+            "value": "1.0급"
+          },
+          "connectionType": {
+            "label": "접속방식",
+            "value": "콘센트 접속형"
+          },
+          "phaseAndWire": {
+            "label": "상 및 선식",
+            "value": "단상 2선식"
+          },
+          "ratedVoltage": {
+            "label": "정격전압",
+            "value": "AC250V"
+          },
+          "ratedCurrent": {
+            "label": "정격전류",
+            "value": "16A"
+          },
+          "standardFrequency": {
+            "label": "기준 주파수",
+            "value": "60Hz"
+          },
+          "meterConstant": {
+            "label": "계기정수",
+            "value": "2,000 pulse / kWh"
+          },
+          "operatingTemperatureRange": {
+            "label": "동작온도범위",
+            "value": "-10 ~ 45 °C"
+          },
+          "recommendedStorageTemperature": {
+            "label": "권장보관온도",
+            "value": "-25 ~ 70 °C"
+          },
+          "humidityRange": {
+            "label": "보관 습도",
+            "value": "0 ~ 80%"
+          },
+          "communicationSpecification": {
+            "label": "통신규격",
+            "value": {
+              "1": "2.4GHz, 5GHz IEEE 802.11 b/g/n 무선 통신",
+              "2": "사용자 인증: RFID (13.56MHz)",
+              "3": "LTE: FDD LTE CAT4 / FDD Band 1, 3, 8",
+              "4": "LAN: 기가비트 이더넷"
+            }
+          },
+          "powerConsumption": {
+            "label": "소비전력",
+            "value": "10W 이하"
+          },
+          "productMaterial": {
+            "label": "제품재질",
+            "value": "PC EF2008P(난연등급 V0)"
+          },
+          "protectionRating": {
+            "label": "보호등급",
+            "value": "IP51(방진, 방수)"
+          }
+        }
+      }
+    },
+    "onflex": {
+      "onflex1": {
+        "title": "ONFLEX",
+        "subtitle": "ONFLEX 단독형",
+        "description1": "다양한 충전 환경에 대응한 7KW 14KW 충전 기능 및 V2G 방전 기술을 탑재하여 고객 선택권을 제공해 드립니다.",
+        "description2": "공용 아파트, 상가, 공장, 주차 빌딩 등에 최적화 된 완속 충전기 모든 차종 호환, 전국 방문 A/S",
+        "productDescription": "제품설명",
+        "productTitle": "ONFLEX(단독형 7KW, 14KW)",
+        "features": {
+          "1": "IP44 보호등급 지원",
+          "2": "다양한 통신방식 지원(Wifi, Bluetooth, LTE)",
+          "3": "안전 기능 강화로 과전압, 과전류, 누전, 고온 감지 및 차단",
+          "4": "5.5m의 긴 케이블로 차량 연결 편의성 제공",
+          "5": "거치식 커넥터 보관으로 간편하게 차량 연결",
+          "6": "컬러 커스텀 LED 패널로 직관적인 정보 전달"
+        }
+      },
+      "onflex2": {
+        "title": "ONFLEX",
+        "subtitle": "ONFLEX 단독형 14kW",
+        "specifications": [
+          {
+            "label": "전압 및 주파수",
+            "value": "AC 220V / 60Hz"
+          },
+          {
+            "label": "정격 전류",
+            "value": "14kW : 64A"
+          },
+          {
+            "label": "과전압/과전류",
+            "value": "10~50도"
+          },
+          {
+            "label": "보관 온도 범위[권장]",
+            "value": "70A ~ 30 sec 이상 지속 시"
+          },
+          {
+            "label": "RCD 동작조건",
+            "value": "AC30mA 이상 검출 시 차단"
+          },
+          {
+            "label": "커넥터",
+            "value": {
+              "type": "IEC62196",
+              "pinType": "AC5pin",
+              "cableLength": "5.5m",
+              "conductorArea": "13mm²"
+            }
+          },
+          {
+            "label": "권장 보관 온도",
+            "value": "-10 ~ 40도"
+          },
+          {
+            "label": "LED 표시사항",
+            "value": "전력량 Pulse 표시 Blue"
+          },
+          {
+            "label": "Display 표시장치",
+            "value": {
+              "chargingStatus": "충전상태 표시",
+              "powerVoltageCurrent": "누적 유효전력량, 전압 및 전류 순차적 표시",
+              "errorNotification": "오류 안내표시"
+            }
+          },
+          {
+            "label": "제품 사이즈",
+            "value": {
+              "mainBody": "170mm x 340mm x 90mm",
+              "chargingCable": "6m"
+            }
+          },
+          {
+            "label": "통신규격",
+            "value": {
+              "wireless": "2.4GHz, 5GHz, IEEE 802.11 b/g/n wireless",
+              "bluetooth": "Bluetooth 5.0, BLE",
+              "authentication": "RFID(13.56MHz)",
+              "lte": "FDD LTE CAT4 / FDD Band 1, 3, 8",
+              "lan": "Gigabit Ethernet"
+            }
+          },
+          {
+            "label": "사용전원",
+            "value": "85 ~ 305V / AC / 60Hz"
+          },
+          {
+            "label": "방수등급",
+            "value": "IP44"
+          }
+        ]
+      },
+      "onflex3": {
+        "titles": {
+          "mainTitle": "ONFLEX",
+          "subtitle": "단독형 7kW"
+        },
+        "specifications": [
+          {
+            "label": "전압 및 주파수",
+            "value": "AC 220V / 60Hz"
+          },
+          {
+            "label": "정격 전류",
+            "value": "7kW : 32A"
+          },
+          {
+            "label": "과전압/과전류",
+            "value": "7kW : 35A ~ 30sec 이상 지속 시"
+          },
+          {
+            "label": "RCD 동작조건",
+            "value": "AC30mA 이상 검출 시 차단"
+          },
+          {
+            "label": "커넥터",
+            "value": {
+              "type": "IEC62196",
+              "pinType": "AC5pin, 케이블 길이 5.5m",
+              "conductorArea": "도체의 단면적 6mm²"
+            }
+          },
+          {
+            "label": "권장 보관 온도",
+            "value": "-10 ~ 40도"
+          },
+          {
+            "label": "LED 표시사항",
+            "value": "전력량 Pulse 표시 Blue"
+          },
+          {
+            "label": "Display 표시장치",
+            "value": {
+              "items": [
+                "충전상태 표시",
+                "누적 유효전력량, 전압 및 전류 순차적 표시",
+                "오류 안내표시"
+              ]
+            }
+          },
+          {
+            "label": "제품 사이즈",
+            "value": {
+              "items": ["본체 170mm x 340mm x 90mm", "충전 케이블 5.5m"]
+            }
+          },
+          {
+            "label": "통신규격",
+            "value": {
+              "wireless": "2.4GHz, 5GHz IEEE 802.11 b/g/n wireless",
+              "bluetooth": "Bluetooth 5.0, BLE",
+              "authentication": "사용자 인증 : RFID(13.56MHz)",
+              "lte": "LTE : FDD LTE CAT4 / FDD Band 1, 3, 8",
+              "lan": "LAN : Gigabit Ethernet"
+            }
+          },
+          {
+            "label": "사용전원",
+            "value": "85 ~ 305V / AC / 60Hz"
+          },
+          {
+            "label": "방수등급",
+            "value": "IP44"
+          }
+        ]
+      }
+    },
+    "fastCharger": {
+      "fastCharger1": {
+        "title1": {
+          "text": "급속충전기"
+        },
+        "title2": {
+          "text": "급속충전기 50KW, 100KW"
+        },
+        "description": {
+          "text": "국내 모든 전기자동차 충전이 가능한 호환성 및 사용자의 편의성을 높였습니다. 쉽게 접근할 수 있는 주유소, 대형 쇼핑몰, 고속도로휴게소, 공공기관 등에서 빠른 충전을 도와드리겠습니다."
+        },
+        "features": {
+          "title": {
+            "text": "제품설명"
+          },
+          "items": [
+            {
+              "text": "고효율 인증 및 사용자 시인성 확보된 충전기 라인업 확보"
+            },
+            {
+              "text": "50kW(2종), 100kW(2종)"
+            },
+            {
+              "text": "내부 열 순환 구조: Air – Flow 구조 설계"
+            },
+            {
+              "text": "먼지, 습기 차단 방지를 위한 충전기 도어 개폐 설계"
+            },
+            {
+              "text": "내구성 확보를 위한 분체 도장"
+            },
+            {
+              "text": "유지 보수 및 작업성 개선: 파워모듈 병렬 연결 구조 / 강전부, 제어부 분리 설계"
+            },
+            {
+              "text": "각 모듈 탈부착 용이성: 충전기 도어 개폐 설계"
+            },
+            {
+              "text": "충전 커넥터 교체 용이: 커넥터 나사 홀 적용"
+            }
+          ]
+        }
+      },
+      "fastCharger2": {
+        "title": "급속충전",
+        "heading": "50kW 급속 충전기 (JC-9931-50-3)",
+        "description": "급속 50kW",
+        "specifications": [
+          {
+            "name": "충전규격",
+            "value": "CCS Type1 (DC 콤보1)"
+          },
+          {
+            "name": "정격입력",
+            "value": "3상4선식 AC380V, 60Hz, 50kW"
+          },
+          {
+            "name": "정격출력",
+            "value": "DC 150 ~ 500V, 125A, 50kW"
+          },
+          {
+            "name": "조작화면",
+            "value": "12.1” LCD Touch Screen"
+          },
+          {
+            "name": "결제방식",
+            "value": "RF 카드 or 신용카드 결제"
+          },
+          {
+            "name": "환경조건",
+            "value": [
+              "온도: -25°C ~ 40°C",
+              "습도: 20% ~ 93% (단, 이슬 맺힘이 없어야 함)"
+            ]
+          },
+          {
+            "name": "보호등급",
+            "value": "IP 44"
+          },
+          {
+            "name": "제품인증",
+            "value": "KC 인증, 형식 인증"
+          },
+          {
+            "name": "안전기능",
+            "value": "과전압, 과전류, 저전압, 누설전류, 융착보호, 접지연결"
+          },
+          {
+            "name": "제품크기",
+            "value": "500(W) x 1,660(H) x 700(D) mm"
+          }
+        ]
+      },
+      "fastCharger3": {
+        "title": "급속충전",
+        "heading": "50kW 급속 충전기 (JC-9933-TM2KD-3a)",
+        "description": "급속 50kW",
+        "specifications": [
+          {
+            "name": "충전규격",
+            "value": "CHAdeMO / CCS Type1 (DC 콤보1)"
+          },
+          {
+            "name": "정격입력",
+            "value": "3상4선식 AC380V, 60Hz, 50kW"
+          },
+          {
+            "name": "정격출력",
+            "value": "DC 150 ~ 500V, 125A, 50kW"
+          },
+          {
+            "name": "조작화면",
+            "value": "12.1” LCD Touch Screen"
+          },
+          {
+            "name": "결제방식",
+            "value": "RF 카드 or 신용카드 결제"
+          },
+          {
+            "name": "환경조건",
+            "value": [
+              "온도: -25°C ~ 40°C",
+              "습도: 20% ~ 93% (단, 이슬 맺힘이 없어야 함)"
+            ]
+          },
+          {
+            "name": "보호등급",
+            "value": "IP 44"
+          },
+          {
+            "name": "제품인증",
+            "value": "KC 인증, 형식 인증"
+          },
+          {
+            "name": "안전기능",
+            "value": "과전압, 과전류, 저전압, 누설전류, 융착보호, 접지연결"
+          },
+          {
+            "name": "제품크기",
+            "value": "500(W) x1,660(H) x 700(D) mm"
+          }
+        ]
+      },
+      "fastCharger4": {
+        "title": "급속충전",
+        "heading": "100kW 급속 충전기 (JC-9932-100-821)",
+        "description": "급속 100kW",
+        "specifications": [
+          {
+            "name": "충전규격",
+            "value": " CCS Type1 (DC 콤보1)"
+          },
+          {
+            "name": "정격입력",
+            "value": "3상4선식 AC380V, 60Hz, 50kW"
+          },
+          {
+            "name": "정격출력",
+            "value": [
+              "1CH : DC 150 ~ 1,000V, max. 200A, 100kW",
+              "2CH : DC 150 ~ 1,000V, max. 125A, 50kW x 2"
+            ]
+          },
+          {
+            "name": "조작화면",
+            "value": "12.1” LCD Touch Screen"
+          },
+          {
+            "name": "결제방식",
+            "value": "RF 카드 or 신용카드 결제"
+          },
+          {
+            "name": "환경조건",
+            "value": [
+              "온도 : -25°C ~ 40°C",
+              "습도 : 20% ~ 93%(단, 이슬 맺힘이 없어야 함)"
+            ]
+          },
+          {
+            "name": "보호등급",
+            "value": "IP 44"
+          },
+          {
+            "name": "제품인증",
+            "value": "KC 인증, 형식 인증"
+          },
+          {
+            "name": "안전기능",
+            "value": "과전압, 과전류, 저전압, 누설전류, 융착보호, 접지연결"
+          },
+          {
+            "name": "제품크기",
+            "value": "600(W) x1,750(H) x 650(D) mm"
+          }
+        ]
+      },
+      "fastCharger5": {
+        "title": "급속충전",
+        "heading": "100kW 급속 충전기 (JC-9932-100-CU)",
+        "description": "급속 100kW",
+        "specifications": [
+          {
+            "name": "충전규격",
+            "value": "CCS Type1 (DC 콤보1 2Ch)"
+          },
+          {
+            "name": "정격입력",
+            "value": "3상4선식 AC380V, 60Hz, 100kW"
+          },
+          {
+            "name": "정격출력",
+            "value": [
+              "1CH : DC 150 ~ 1,000V, max. 200A, 100kW",
+              "2CH : DC 150 ~ 1,000V, max. 125A, 50kW x 2"
+            ]
+          },
+          {
+            "name": "조작화면",
+            "value": "24” LCD Touch Screen"
+          },
+          {
+            "name": "결제방식",
+            "value": "신용카드 결제"
+          },
+          {
+            "name": "환경조건",
+            "value": [
+              "온도 : -25°C ~ 40°C",
+              "습도 : 20% ~ 93%(단, 이슬 맺힘이 없어야 함)"
+            ]
+          },
+          {
+            "name": "보호등급",
+            "value": "IP 44"
+          },
+          {
+            "name": "제품인증",
+            "value": "KC 인증, 형식 인증, 고효율 인증(95.6%)"
+          },
+          {
+            "name": "안전기능",
+            "value": "과전압, 과전류, 저전압, 누설전류, 융착보호, 접지연결"
+          },
+          {
+            "name": "제품크기",
+            "value": "1,060(W) x 1,990(H) x 525(D) mm"
+          }
+        ]
+      }
+    },
+    "evolt": {
+      "evolt1": {
+        "title": "EVOLT",
+        "heading": "이볼트(EVOLT)",
+        "description": "간편하지만 강력한 기능으로 언제 어디서나 쉽고 빠르게 전기차 충전이 가능합니다. 이제 이볼트로 편리하고 스마트한 충전 라이프를 시작하세요!",
+        "productDescription": {
+          "title": "제품설명",
+          "subTitle": "3kW 과금가능형 이동형 충전기",
+          "details": [
+            "- 아파트 빌라 등 공동주택에 적합",
+            "- 공용 전기를 사용하고 소비된 요금은 사용자가 납부(분리 과금)",
+            "- 기존220V 콘센트 사용(별도 공사 불필요)",
+            "- 전자태그(RFID)를 통한 사용자 위치 및 정보 식별",
+            "- 충전 전용 주차 구역 불필요, 주차 분쟁 해결",
+            "- 전국 전자태그(RFID) 무상 설치 지원"
+          ]
+        }
+      },
+      "evolt2": {
+        "title": "EVOLT",
+        "heading": "EVOLT",
+        "description": "과금기능형 이동형 충전기",
+        "specifications": [
+          {
+            "name": "전압 및 주파수",
+            "value": "AC 220V / 60Hz"
+          },
+          {
+            "name": "플러그",
+            "value": ["L, N & 안전 접지", "온도센서 내장"]
+          },
+          {
+            "name": "커넥터",
+            "value": ["IEC62196", "온도센서 내장"]
+          },
+          {
+            "name": "전류",
+            "value": [
+              "전기차 충전기능 정격전류 ; 13A(한전 3kW 계약)",
+              "전력량 정격 : 10A"
+            ]
+          },
+          {
+            "name": "케이블 길이",
+            "value": ["AC 플러그 길이 30cm", "충전 케이블 길이 7m"]
+          },
+          {
+            "name": "크기",
+            "value": [
+              "플러그 : 49.9 x 27.7 x 45.9",
+              "본체 : 259.3 x 60.8 x 43.5",
+              "충전커넥터 : 79.5 x 124.6"
+            ]
+          },
+          {
+            "name": "무게",
+            "value": "2.5Kg"
+          },
+          {
+            "name": "작동 및 보관온도",
+            "value": "-10 ~ 40°C"
+          },
+          {
+            "name": "방수등급",
+            "value": "플러그(IP44), 본체(IP55), 충전커넥터(IP44 & IP55)"
+          },
+          {
+            "name": "인증",
+            "value": [
+              "KC61851 및 KC62752 적합",
+              "KC인증 : R-C-Mgo-E-VOLT",
+              "안전인증 : XD070062-18001A",
+              "계량기 형식 승인 : (시험성적서 No.) T2018-10227"
+            ]
+          }
+        ]
+      },
+      "evolt3": {
+        "title": "EVOLT",
+        "heading": "이볼트(EVOLT-LT)",
+        "description": "간편하지만 강력한 기능으로 언제 어디서나 쉽고 빠르게 전기차 충전이 가능합니다. 이제 이볼트로 편리하고 스마트한 충전 라이프를 시작하세요!",
+        "productDescription": {
+          "title": "제품설명",
+          "details": [
+            "3kW 과금가능형 이동형 충전기",
+            "- 개인주택, 자체 전기 사용건물(허가된 장소)에 적합",
+            "- 과금형 콘센트 및 기존 220V 콘센트에 바로 연결하여 사용 가능",
+            "- 매니지온 과금형 콘센트 및 국내 출시된 콘센트형 충전기 호환",
+            "- 전용 모바일 앱 서비스 제공 / 컬러 액정 도입, 계량 파트 내장하여 충전 이력 정보 제공",
+            "- 온도센서 및 누전보호회로 내장으로 안전한 충전 서비스 제공",
+            "- 국내 100%개발, 생산(Made in Korea)"
+          ]
+        }
+      },
+      "evolt4": {
+        "title": "EVOLT",
+        "heading": "EVOLT",
+        "description": "과금기능형 이동형 충전기",
+        "specifications": [
+          {
+            "name": "전압 및 주파수",
+            "value": "AC 220V / 60Hz"
+          },
+          {
+            "name": "플러그",
+            "value": ["L, N & 안전 접지", "온도센서 내장"]
+          },
+          {
+            "name": "커넥터",
+            "value": ["IEC62196", "온도센서 내장"]
+          },
+          {
+            "name": "충전전력",
+            "value": ["AC 220V 13A 2PH(3kW 이내)", "Max 16A"]
+          },
+          {
+            "name": "전류",
+            "value": "6A ~ 16A Variable(6A~13A는 저장됨)"
+          },
+          {
+            "name": "케이블 길이",
+            "value": ["AC 플러그 길이 30cm", "충전 케이블 길이 7m"]
+          },
+          {
+            "name": "크기",
+            "value": [
+              "플러그 : 49.9 x 27.7 x 45.9",
+              "본체 : 259.3 x 60.8 x 43.5",
+              "충전커넥터 : 79.5 x 124.6"
+            ]
+          },
+          {
+            "name": "통신",
+            "value": "Bluetooth 5.0"
+          },
+          {
+            "name": "무게",
+            "value": "2.5Kg"
+          },
+          {
+            "name": "작동 및 보관온도",
+            "value": "-10 ~ 40°C"
+          },
+          {
+            "name": "방수등급",
+            "value": "플러그(IP44), 본체(IP55), 충전커넥터(IP44 & IP55)"
+          },
+          {
+            "name": "인증",
+            "value": [
+              "KC61851 및 KC62752 적합",
+              "KC인증 : R-C-Mgo-E-VOLT",
+              "안전인증 : XD070062-18001A"
+            ]
+          }
+        ]
+      }
+    },
+    "powerflex": {
+      "powerflex1": {
+        "title": "POWERFLEX",
+        "heading": "POWERFLEX (V2G지원)",
+        "description": "경부하 시간대에 전기차 충전을 진행하여 전력이 많이 필요한 시간에 전기 차 배터리에 저장된 전기를 건물(또는 그리드)에 공급합니다.",
+        "productDescription": {
+          "title": "제품설명",
+          "name": "V2G 양방향 충방전 기능을 지원하는 차세대 전기차 충전기",
+          "details": [
+            "그리드 과부하에 대한 우려 감소",
+            "소비자를 위한 새로운 경제 수익",
+            "저렴하고 빠른 에너지 저장 장치",
+            "전기 그리드 지원, 그리드 과부하에 대한 우려 감소",
+            "환경영향 저감"
+          ]
+        }
+      },
+      "powerflex2": {
+        "title": "매니지온 POWERFLEX (V2G 양방향 충방전 충전기) 개념도",
+        "subtitle": [
+          "V2G는 Vehicle To Grid로, 자동차에서 전력망으로 전기를 이동하는 것을 의미합니다. ",
+          "즉. V2G란 전기차에 저장한 배터리를 에너지저장장치 (ESS)처럼 활용해 전력계통에 연계하는 기술입니다."
+        ],
+        "circles": [
+          {
+            "title": "전기차 소유자",
+            "icon": "/images/sub/02evservice/powerflex/icon01.png"
+          },
+          {
+            "title": "POWERFLEX",
+            "subtitle": "(양방향 충방전 충전기)",
+            "icon": "/images/sub/02evservice/powerflex/icon02.png"
+          },
+          {
+            "title": "전력망",
+            "icon": "/images/sub/02evservice/powerflex/icon03.png"
+          },
+          {
+            "title": "건물",
+            "icon": "/images/sub/02evservice/powerflex/icon04.png"
+          }
+        ],
+        "directions": [
+          {
+            "1": "차량에 충전된",
+            "2": "전기를 방전"
+          },
+          {
+            "1": "방전된 전력을 그리드",
+            "2": "또는 빌딩에 공급"
+          }
+        ],
+        "description": [
+          "V2G는 이산화탄소의 배출을 줄이면서 친환경적이고 경제성을 갖추어 지속가능한 성장을 이어갈 수 있는 산업모델 입니다. ",
+          "또한 피크절감효과뿐 아니라 선진국과 같은 전력계통 주파수 조정, 신재생에너지 발판 등 다양한 전력보조서비스와 부가가치를 창출할 것입니다."
+        ]
+      }
+    }
+  },
+  "inquery": {
+    "headTitle": "매니지온 |  문의신청",
+    "Inquiry": "문의신청",
+    "form": {
+      "status": "공용여부",
+      "name": "성명",
+      "phone": "연락처",
+      "email": "이메일",
+      "address": "설치주소",
+      "quantity": "충전기 수량",
+      "recaptcha": "자동등록방지",
+      "terms": "[필수] 개인정보 수집 및 이용에 동의합니다."
+    }
+  },
+  "as":{
+    "headTitle": "매니지온 | A/S 접수",
+    "as": "A/S 접수",
+    "form": {
+      "name": "성명",
+      "phone": "연락처",
+      "email": "이메일",
+      "content": "내용",
+      "recaptcha": "자동등록방지",
+      "terms": "[필수] 개인정보 수집 및 이용에 동의합니다."
+
+    }
+  }
+}

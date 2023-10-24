@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+body {
+  margin: 0;
+  overflow-y: hidden;
+  font-family: "pretendard", "NotoSansKR";
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  margin: 0;
+  overflow-y: hidden;
+  font-family: "pretendard", "NotoSansKR";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outer {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* 화면에서 스크롤바 안보이게 */
+.outer::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,55 @@
+{
+  "tabNames": {
+    "notices": "공지사항",
+    "board": "보도자료",
+    "blog": "블로그"
+  },
+  "notice": {
+    "headTitle": "매니지온 | 공지사항",
+    "title": "공지사항",
+    "search": {
+      "options": {
+        "1": "제목",
+        "2": "내용",
+        "3": "제목+내용",
+        "4": "글쓴이"
+      },
+      "placeholder": "검색어를 입력해주세요"
+    },
+    "table": {
+      "title": "제목",
+      "date": "날짜",
+      "view": "조회"
+    },
+    "write": "글쓰기",
+    "delete": "선택삭제",
+    "nothing": "게시물이 없습니다",
+    "next": "다음",
+    "prev": "이전"
+    
+  },"board": {
+    "headTitle": "보도자료 | 매니지온",
+    "title": "보도자료",
+    "search": {
+      "options": {
+        "1": "제목",
+        "2": "내용",
+        "3": "제목+내용",
+        "4": "글쓴이"
+      },
+      "placeholder": "검색어를 입력해주세요"
+    },
+    "table": {
+      "title": "제목",
+      "date": "날짜",
+      "view": "조회"
+    },
+    "write": "글쓰기",
+    "delete": "선택삭제",
+    "nothing": "게시물이 없습니다",
+    "next": "다음",
+    "prev": "이전",
+    "selectAll":"전체선택"
+    
+  }
+}

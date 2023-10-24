@@ -1,0 +1,83 @@
+{
+  "EVFLEX": {
+    "headTitle": "Manageon | EVFLEX",
+    "title": {
+      "1": "Would you like to receive a free electric vehicle charging station installation and",
+      "2": "forgo profits for 5 to 7 years?",
+      "3": ""
+    },
+    "partner": "EV Charging Business Partner",
+    "message": {
+      "1": "EV Charging Business Partner",
+      "2": "Realize profit generation.",
+      "3": ""
+    },
+    "partnerBenifits": "Partner Benefits"
+  },
+  "Sales": {
+    "headTitle": "Manageon | Sales",
+    "sales": "Sales Partner",
+    "title": {
+      "1": "Are you interested in selling electric vehicle charging stations with Manageon?",
+      "2": "We are recruiting partners and sales agents."
+    },
+    "card1": {
+      "title": "Sales Partnership Benefits",
+      "detail": {
+        "1": "Specialized sales partner fees and ",
+        "2": "exclusive pricing operation"
+      }
+    },
+    "card2": {
+      "title": "EVSE Training",
+      "detail": {
+        "1": "Comprehensive product training",
+        "2": "for sales partners"
+      }
+    },
+    "card3": {
+      "title": "Sales Tools",
+      "detail": {
+        "1": "Tool support to increase sales",
+        "2": "partner performance"
+      }
+    },
+    "card4": {
+      "title": "Marketing Survey",
+      "detail": {
+        "1": "Meeting support with customers to",
+        "2": "increase contract success rate"
+      }
+    },
+    "recruitmentArea": {
+      "title": "Recruitment Area",
+      "detail": "Nationwide"
+    },
+    "contact": "Contact Us"
+  },
+  "Installation": {
+    "headTitle": "Manageon | Installation Partner",
+    "instalment": "Installation Partner",
+    "title": {
+      "1": "We are recruiting specialized partners for ev charger installation and construction to collaborate with",
+      "2": "ManageON, an officially designated company by the Ministry of Environment."
+    },
+    "card1": {
+      "title": "Partnership Benefits",
+      "detail": "Continuous growth business according to the policy of expanding electric vehicles."
+    },
+    "card2": {
+      "title": "Strategic Partnership",
+      "detail": "Installation and construction base can be secured in existing business areas."
+    },
+    "card3": {
+      "title": "Eco-friendly EV Chargers",
+      "detail": "Eco-friendly excellent products and independently developed products that have been stabilized."
+    },
+    "recruitmentArea": {
+      "title": "Recruitment Area",
+      "detail": "Nationwide"
+    },
+    "contact": "Contact Us"
+  }
+}
