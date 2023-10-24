@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import AnimatedDiv from "@/components/atoms/animationedComponents/AnimatedDiv";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import History from "@/components/oraganisms/about/History";
+import History from "@/components/History";
 import { useRouter } from "next/router";
 import { useTranslation, UseTranslation } from "next-i18next";
 function About() {

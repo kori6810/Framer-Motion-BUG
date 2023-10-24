@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import "react-horizontal-scrolling-menu/dist/styles.css";
-import { AboutData } from "@/data/about/AboutData";
 import Head from "next/head";
 import {
   useScroll,
@@ -21,13 +20,6 @@ type scrollVisibilityApiType = React.ContextType<typeof VisibilityContext>;
  */
 
 const History = () => {
-  const [selected, setSelected] = React.useState<string>("");
-  const [data, setData] = useState<any>([]);
-  const [viewportSize, setViewportSize] = useState<any>(null); // Track viewport width
-
-  const router = useRouter();
-  const { t } = useTranslation("about");
-
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -76,6 +68,7 @@ const History = () => {
           </motion.div>
         </div>
       </div>
+      <div className="h-[10vh] bg-red-500">Footer</div>
     </div>
   );
 };
