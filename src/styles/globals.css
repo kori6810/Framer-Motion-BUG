@@ -15,14 +15,14 @@ img {
 }
 body {
   margin: 0;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   font-family: "pretendard", "NotoSansKR";
   font-weight: 400;
   font-style: normal;
 }
 html {
   margin: 0;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   font-family: "pretendard", "NotoSansKR";
   font-weight: 400;
   font-style: normal;

@@ -11,6 +11,7 @@ import {
   useTransform,
   motion,
   useViewportScroll,
+  useMotionValueEvent,
 } from "framer-motion";
 import { useRef } from "react";
 
@@ -23,9 +24,11 @@ const History = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
+    offset: ["start start", "end end",],
   });
 
-  console.log(scrollYProgress);
+  // It's easier to debug motion values using this hook, rather than printing them
+  useMotionValueEvent(scrollYProgress, 'change', (val) => console.log('ScrollProgress change', val));
 
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 

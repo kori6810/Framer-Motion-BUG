@@ -38,7 +38,7 @@ function About() {
   };
   return (
     <>
-      <div className=" scroll-smooth relative w-screen h-screen overflow-x-hidden bg-white">
+      <div className=" scroll-smooth relative w-screen bg-white">
         <div className="flex justify-center pt-[4.5rem] h-[24.0625rem] xl:h-[38.75rem]">
           <Image
             className="w-full h-[24.0625rem] xl:h-[38.75rem] absolute top-0 left-0 object-cover"
